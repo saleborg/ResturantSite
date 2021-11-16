@@ -19,7 +19,7 @@ const Hero = () => {
                 <HeroItems>
                     <HeroH1>SUSHI & VIETNAMESISK</HeroH1>
                     <HeroP>Bästa Take Away i Växjö</HeroP>
-                    <HeroBtn>Placera Order</HeroBtn>
+                    <HeroBtn>Beställ nu</HeroBtn>
                 </HeroItems>
             </HeroContent>
         </HeroContainer>

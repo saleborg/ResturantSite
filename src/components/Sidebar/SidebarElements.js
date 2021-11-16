@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { FaTimes } from 'react-icons/fa';
+import { HashLink } from 'react-router-hash-link';
 
 export const SidebarContainer = styled.aside`
   position: fixed;
@@ -45,7 +46,7 @@ export const SidebarMenu = styled.div`
   }
 `;
 
-export const SidebarLink = styled(Link)`
+export const SidebarLink = styled(HashLink)`
   display: flex;
   align-items: center;
   justify-content: center;

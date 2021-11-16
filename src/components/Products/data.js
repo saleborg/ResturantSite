@@ -17,9 +17,9 @@ export const starterData = [
     alt: 'Kyckling dumpling',
     name: 'Dumplings kyckling',
     desc:
-      'Dumplings fyllda med kyckling. Kan fås antingen stekta eller kokta. 4 st',
+      'Dumplings fyllda med kyckling. Kan fås antingen stekta eller kokta. Om man önskar ge de även få friterade, 4 st',
     price: '45 :-',
-    button: 'Lägg till beställning'
+    button: 'Beställ nu'
   },
   {
     img: starter2,
@@ -28,7 +28,7 @@ export const starterData = [
     desc:
       'Friterade risnätsvårrullar med skaldjur, grönsaker, örter, glasnudlar & jordnötter eller vegetariska vårrullar, 4st',
     price: '45 :-',
-    button: 'Lägg till beställning'
+    button: 'Beställ nu'
   },
 ];
 
@@ -39,9 +39,9 @@ export const sushiData = [
     alt: 'Kyckling dumpling',
     name: 'Dumplings kyckling',
     desc:
-      'Dumplings fyllda med kyckling. Kan fås antingen stekta eller kokta. 4 st',
+      'Dumplings fyllda med kyckling. Kan fås antingen stekta eller kokta. Om man önskar ge de även få friterade 4 st',
     price: '45 :-',
-    button: 'Lägg till beställning'
+    button: 'Beställ nu'
   },
   {
     img: starter2,
@@ -50,7 +50,7 @@ export const sushiData = [
     desc:
       'Friterade risnätsvårrullar med skaldjur, grönsaker, örter, glasnudlar & jordnötter eller vegetariska vårrullar, 4st',
     price: '45 :-',
-    button: 'Lägg till beställning'
+    button: 'Beställ nu'
   },
 ];
 
@@ -63,7 +63,7 @@ export const mainData = [
     desc:
       'Sommarrullar med entrecote/räkor eller kyckling/räkor, risnudlar, färska grönsaker, örter & jordnötter, 2st',
     price: '70 :-',
-    button: 'Lägg till beställning'
+    button: 'Beställ nu'
   },
   {
     img: main2,
@@ -72,7 +72,7 @@ export const mainData = [
     desc:
       'Friterade vårrullar med skaldjur, serveras med risnudlar, örter, jordnötter, grönsaker & vietnamesisk sås',
     price: '115 :-',
-    button: 'Lägg till beställning'
+    button: 'Beställ nu'
   },
   {
     img: main3,
@@ -81,7 +81,7 @@ export const mainData = [
     desc:
       'Stekt marinerad kycklingfilé, serveras med risnudlar, örter, vårrullar, jordnötter, grönsaker & vietnamesisk sås',
     price: '115 :-',
-    button: 'Lägg till beställning'
+    button: 'Beställ nu'
   },
   {
     img: main4,
@@ -90,7 +90,7 @@ export const mainData = [
     desc:
       'Sauterad biff, serveras med risnudlar, färska grönsaker, örter, vårrullar, jordnötter & vietnamesisk sås',
     price: '115 :-',
-    button: 'Lägg till beställning'
+    button: 'Beställ nu'
   },
 ]
 
@@ -103,7 +103,7 @@ export const productDataTwo = [
     desc:
       'Belgian chocolate glazed donuts covered in icing with sprinkles on top',
     price: '$9.99',
-    button: 'Add to Cart'
+    button: 'Beställ nu'
   },
   {
     img: sweet3,
@@ -112,7 +112,7 @@ export const productDataTwo = [
     desc:
       'Vanilla ice cream covered with caramel and chocolate glaze topped with a coco stick',
     price: '$12.99',
-    button: 'Add to Cart'
+    button: 'Beställ nu'
   },
   {
     img: sweet1,
@@ -121,6 +121,6 @@ export const productDataTwo = [
     desc:
       'Double fudge brownie squares topped with white chocolate pieces and macadamia nuts',
     price: '$9.99',
-    button: 'Add to Cart'
+    button: 'Beställ nu'
   }
 ];

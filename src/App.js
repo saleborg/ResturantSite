@@ -1,4 +1,4 @@
-import { BrowserRouter as Router} from 'react-router-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
 import { GlobalStyle } from "./globalStyle";
 import Hero from "./components/Hero";
 import Products from './components/Products';
@@ -13,14 +13,13 @@ function App() {
     <Router>
       <GlobalStyle />
       <Hero />
-
-            <Products section='starters' heading='Förrätt' data={starterData} />
-            <Feature />
-            <Products section='vietnamesiskt' heading='Vietnamesiskt' data={mainData} />
-            <Feature />
-            <Products section='sushi' heading='Sushi' data={sushiData} />
-            <Feature />
-            <Products section='thai' heading='Tahi' data={productDataTwo} />
+      <Products section='starters' heading='Förrätt' data={starterData} />
+      <Feature />
+      <Products section='vietnamesiskt' heading='Vietnamesiskt' data={mainData} />
+      <Feature />
+      <Products section='sushi' heading='Sushi' data={sushiData} />
+      <Feature />
+      <Products section='thai' heading='Tahi' data={productDataTwo} />
       <Footer />
     </Router>
 

@@ -1,8 +1,5 @@
 import React from 'react'
 import { SidebarContainer, Icon, CloseIcon, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute } from './SidebarElements'
-import { HashLink } from 'react-router-hash-link';
-
-
 
 
 const Sidebar = ({ isOpen, toggle }) => {
@@ -12,11 +9,10 @@ const Sidebar = ({ isOpen, toggle }) => {
                 <CloseIcon />
             </Icon>
             <SidebarMenu>
-            
-                <SidebarLink to="/"><HashLink smooth to="/#starters">Förrätter</HashLink></SidebarLink>
-                <SidebarLink to="/"><HashLink smooth to="/#vietnamesiskt">Vietnamesiskt</HashLink></SidebarLink>
-                <SidebarLink to="/"><HashLink smooth to="/#sushi">Sushi</HashLink></SidebarLink>
-                <SidebarLink to="/"> <HashLink smooth to="/#thai">Thai</HashLink></SidebarLink>
+                <SidebarLink smooth to="/#starters">Förrätter</SidebarLink>
+                <SidebarLink smooth to="/#vietnamesiskt">Vietnamesiskt</SidebarLink>
+                <SidebarLink smooth to="/#sushi">Sushi</SidebarLink>
+                <SidebarLink smooth to="/#thai">Thai</SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
                 <SidebarRoute to="/">Beställ nu</SidebarRoute>
