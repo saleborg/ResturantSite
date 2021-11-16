@@ -1,2 +1,3 @@
-# ResturantSite
- This is a site for a resturant
+# Resturant Site
+This site is for the resturant Hot Wok in Växjö
+

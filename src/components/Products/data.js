@@ -1,39 +1,99 @@
-import product1 from '../../images/product-1.jpg';
-import product2 from '../../images/product-2.jpg';
-import product3 from '../../images/product-3.jpg';
+import starter1 from '../../images/dumpling.jpg';
+import starter2 from '../../images/cha-gio.jpg';
+
+import main1 from '../../images/goi-cuon.jpg';
+import main2 from '../../images/bun-cha-gio.jpg';
+import main3 from '../../images/bun-thit-ram.jpg';
+import main4 from '../../images/BUN-THIT-XAO.png';
+
+
 import sweet1 from '../../images/sweet3.jpg';
 import sweet2 from '../../images/sweet-2.jpg';
 import sweet3 from '../../images/sweet-3.jpg';
 
-export const productData = [
+export const starterData = [
   {
-    img: product1,
-    alt: 'Pizza',
-    name: 'Supreme Pizza',
+    img: starter1,
+    alt: 'Kyckling dumpling',
+    name: 'Dumplings kyckling',
     desc:
-      'Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
-    price: '$19.99',
-    button: 'Add to Cart'
+      'Dumplings fyllda med kyckling. Kan fås antingen stekta eller kokta. 4 st',
+    price: '45 :-',
+    button: 'Lägg till beställning'
   },
   {
-    img: product2,
-    alt: 'Pizza',
-    name: 'Hawaiian Paradise',
+    img: starter2,
+    alt: 'CHA GIO',
+    name: 'CHA GIO',
     desc:
-      ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
-    price: '$16.99',
-    button: 'Add to Cart'
+      'Friterade risnätsvårrullar med skaldjur, grönsaker, örter, glasnudlar & jordnötter eller vegetariska vårrullar, 4st',
+    price: '45 :-',
+    button: 'Lägg till beställning'
   },
-  {
-    img: product3,
-    alt: 'Pizza',
-    name: 'Veggie Overload',
-    desc:
-      ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
-    price: '$14.99',
-    button: 'Add to Cart'
-  }
 ];
+
+
+export const sushiData = [
+  {
+    img: starter1,
+    alt: 'Kyckling dumpling',
+    name: 'Dumplings kyckling',
+    desc:
+      'Dumplings fyllda med kyckling. Kan fås antingen stekta eller kokta. 4 st',
+    price: '45 :-',
+    button: 'Lägg till beställning'
+  },
+  {
+    img: starter2,
+    alt: 'CHA GIO',
+    name: 'CHA GIO',
+    desc:
+      'Friterade risnätsvårrullar med skaldjur, grönsaker, örter, glasnudlar & jordnötter eller vegetariska vårrullar, 4st',
+    price: '45 :-',
+    button: 'Lägg till beställning'
+  },
+];
+
+
+export const mainData = [
+  {
+    img: main1,
+    alt: 'GOI CUON',
+    name: 'GOI CUON',
+    desc:
+      'Sommarrullar med entrecote/räkor eller kyckling/räkor, risnudlar, färska grönsaker, örter & jordnötter, 2st',
+    price: '70 :-',
+    button: 'Lägg till beställning'
+  },
+  {
+    img: main2,
+    alt: 'Bun Cha Gio',
+    name: 'BUN CHA GIO',
+    desc:
+      'Friterade vårrullar med skaldjur, serveras med risnudlar, örter, jordnötter, grönsaker & vietnamesisk sås',
+    price: '115 :-',
+    button: 'Lägg till beställning'
+  },
+  {
+    img: main3,
+    alt: 'BUN THIT RAM',
+    name: 'BUN THIT RAM',
+    desc:
+      'Stekt marinerad kycklingfilé, serveras med risnudlar, örter, vårrullar, jordnötter, grönsaker & vietnamesisk sås',
+    price: '115 :-',
+    button: 'Lägg till beställning'
+  },
+  {
+    img: main4,
+    alt: 'BUN THIT XAO',
+    name: 'BUN THIT XAO',
+    desc:
+      'Sauterad biff, serveras med risnudlar, färska grönsaker, örter, vårrullar, jordnötter & vietnamesisk sås',
+    price: '115 :-',
+    button: 'Lägg till beställning'
+  },
+]
+
 
 export const productDataTwo = [
   {

@@ -13,13 +13,13 @@ const Hero = () => {
     return (
         
         <HeroContainer>
-            <Navbar  toggle={toggle}/>
-            <Sidebar  isOpen={isOpen} toggle={toggle}/>
+            <Navbar toggle={toggle}/>
+            <Sidebar isOpen={isOpen} toggle={toggle}/>
             <HeroContent>
                 <HeroItems>
-                    <HeroH1>Greates Pizza Ever</HeroH1>
-                    <HeroP>Readin in 60 secounds</HeroP>
-                    <HeroBtn>Place Order</HeroBtn>
+                    <HeroH1>SUSHI & VIETNAMESISK</HeroH1>
+                    <HeroP>Bästa Take Away i Växjö</HeroP>
+                    <HeroBtn>Placera Order</HeroBtn>
                 </HeroItems>
             </HeroContent>
         </HeroContainer>

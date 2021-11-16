@@ -1,13 +1,20 @@
 import React from 'react'
-import { Nav, NavLink, NavIcon, Bars } from './NavbarElements'
+import logo from '../../images/hot-wok.png'
+import { Nav, NavLink, NavIcon, Bars, HeaderImg, HeaderContainer, HeaderWrap, NavP } from './NavbarElements'
 
 export const Navbar = ({ toggle }) => {
     return (
         <>
             <Nav>
-                <NavLink to="/">Pizza</NavLink>
+                <NavLink to="/">
+                    <HeaderContainer>
+                        <HeaderWrap>
+                            <HeaderImg src={logo} alt='Hot Wok logo' />
+                        </HeaderWrap>
+                    </HeaderContainer>
+                </NavLink>
                 <NavIcon onClick={toggle}>
-                    <p>Menu</p>
+                    <NavP>Menu</NavP>
                     <Bars />
                 </NavIcon>
             </Nav>

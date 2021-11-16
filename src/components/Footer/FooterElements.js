@@ -55,3 +55,27 @@ export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
 `;
+
+export const SocialAdress = styled.a`
+color: #fff;
+justify-self: start;
+cursor: pointer;
+text-decoration: none;
+font-size: 1.5rem;
+display: flex;
+align-items: center;
+margin-bottom: 16px;
+font-weight: bold;
+`
+
+export const SocialPhone = styled.p`
+color: #fff;
+justify-self: start;
+cursor: pointer;
+text-decoration: none;
+font-size: 1.5rem;
+display: flex;
+align-items: center;
+margin-bottom: 16px;
+font-weight: bold;
+`
