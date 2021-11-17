@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.deploySubpath": ".",
+    "appService.defaultWebAppToDeploy": "/subscriptions/c3e4675f-181e-4ad8-bf4f-a43cd7ea6861/resourceGroups/cloud-shell-storage-westeurope/providers/Microsoft.Web/sites/hotwok"
+}
