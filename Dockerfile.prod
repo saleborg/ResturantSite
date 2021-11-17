@@ -15,3 +15,11 @@ COPY --from=build /app/build /usr/share/nginx/html
 ENV HOST 0.0.0.0
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
+
+FROM mcr.microsoft.com/appsvc/node:10-lts
+
+ENV HOST 0.0.0.0
+ENV PORT 80
+EXPOSE 80
+
+ENTRYPOINT ["pm2", "start", "--no-daemon", "/opt/startup/default-static-site.js"]
