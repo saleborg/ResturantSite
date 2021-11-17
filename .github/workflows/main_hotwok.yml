@@ -23,14 +23,14 @@ jobs:
       uses: docker/login-action@v1
       with:
         registry: https://hotwok.azurecr.io/
-        username: ${{ secrets.AzureAppService_ContainerUsername_3054641936874e25a3fcc9d26a9a0bb2 }}
-        password: ${{ secrets.AzureAppService_ContainerPassword_3dca10355e76404786a27766903ac3e3 }}
+        username: ${{ secrets.AzureAppService_ContainerUsername_2f77f7d0740a40448d07bc8c676274d6 }}
+        password: ${{ secrets.AzureAppService_ContainerPassword_1c041ca3b8754e378cab5308438e2cb8 }}
 
     - name: Build and push container image to registry
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: hotwok.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_3054641936874e25a3fcc9d26a9a0bb2 }}/resturantsite:${{ github.sha }}
+        tags: hotwok.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_2f77f7d0740a40448d07bc8c676274d6 }}/resturantsite:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
@@ -47,5 +47,5 @@ jobs:
       with:
         app-name: 'hotwok'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_d539aaf99da8470c87945c7639c568ee }}
-        images: 'hotwok.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_3054641936874e25a3fcc9d26a9a0bb2 }}/resturantsite:${{ github.sha }}'
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_9112bdd972f1424b90a1585a4eb70c2e }}
+        images: 'hotwok.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_2f77f7d0740a40448d07bc8c676274d6 }}/resturantsite:${{ github.sha }}'
