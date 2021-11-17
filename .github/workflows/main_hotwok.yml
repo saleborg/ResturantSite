@@ -31,7 +31,7 @@ jobs:
       with:
         push: true
         tags: hotwok.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_2f77f7d0740a40448d07bc8c676274d6 }}/resturantsite:${{ github.sha }}
-        file: ./Dockerfile
+        file: ./Dockerfile.prod
 
   deploy:
     runs-on: ubuntu-latest
