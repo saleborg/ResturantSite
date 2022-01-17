@@ -3,9 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@babel/eslint-parser": "^7.16.3",
     "@sideway/address": "^4.1.2",
-    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "core-js": "^3.19.1",
@@ -17,6 +16,7 @@
     "react-router-dom": "^6.0.2",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "^4.0.3",
+    "react-toastify": "^8.1.0",
     "resolve-url": "^0.2.1",
     "styled-components": "^5.3.3",
     "web-vitals": "^2.1.2"
@@ -24,7 +24,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -43,6 +43,19 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^26.6.0"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|ico|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less)$": "<rootDir>/__mocks__/fileMock.js"
+    },
+    "moduleDirectories": [
+      "node_modules",
+      "./"
     ]
   }
 }
